@@ -4,13 +4,13 @@ import time
 import pygame
 
 import assets
-import input
 import entity
+import input
 
 
 class Game:
 
-    def __init__(self, fps, name):w
+    def __init__(self, fps, name):
         pygame.display.set_caption(name)
         self.assets = assets.Assets(self)
         self.clock = pygame.time.Clock()
