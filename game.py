@@ -33,7 +33,7 @@ class Game:
             if event.type == input.QUIT:
                 self.stop()
             if event.type == input.KEYDOWN2:
-                if event.key == input.ESCAPE:
+                if event['key'] == input.ESCAPE:
                     self.stop()
             self.last_input.append(event)
         self.assets.update(self.dt)
