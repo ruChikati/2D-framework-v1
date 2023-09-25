@@ -2,7 +2,6 @@
 import random
 
 import pygame
-
 from general_funcs import Vector2, magnitude, normalize_list, read_json
 
 

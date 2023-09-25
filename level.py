@@ -2,7 +2,6 @@
 import os
 
 import pygame
-
 from general_funcs import read_json
 
 CHUNK_SIZE = 16

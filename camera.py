@@ -1,9 +1,8 @@
 
 import os
 
-import pygame
-
 import general_funcs as funcs
+import pygame
 
 
 def _bezier_curve_point(point_list, t, x_or_y):

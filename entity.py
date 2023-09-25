@@ -1,10 +1,9 @@
 
 import math
 
-import pygame
-
 import input
 import particle
+import pygame
 
 
 class Entity:

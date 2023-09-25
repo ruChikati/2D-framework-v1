@@ -1,9 +1,8 @@
 
 import os
 
-import pygame
-
 import general_funcs as funcs
+import pygame
 
 
 class FileTypeError(Exception):

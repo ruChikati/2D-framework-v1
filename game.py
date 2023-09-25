@@ -1,11 +1,10 @@
 
 import time
 
-import pygame
-
 import assets
 import entity
 import input
+import pygame
 
 
 class Game:
